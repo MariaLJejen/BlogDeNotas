@@ -1,0 +1,86 @@
+body {
+    font-family: Courier Prime SemiBold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 80%;
+    background: #ffffff;
+    padding: 2%;
+    border-radius: 1%;
+    box-shadow: 0 0 25px rgba(91, 0, 249, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.note-input {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+#note-content {
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 2%;
+    border: 1px solid #ca67ee;
+    border-radius: 10px;
+}
+
+#add-note {
+    padding: 1%;
+    background: #af26a8;
+    color: rgb(255, 255, 255);
+    border: 1px solid #af26a8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-note:hover {
+    background: #ffd1f2;
+    color: rgb(0, 0, 0);
+}
+
+.notes-list {
+    margin-top: 5px;
+}
+
+.note {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 1px solid #ca67ee;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.note p {
+    max-width: 90%;
+}
+
+.note .delete-note {
+    position: absolute;
+    bottom: 5%;
+    right: 20px;
+    background: #af26a8;
+    color: #ffffff;
+    border: 1px solid #af26a8;
+    padding: 5px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.note .delete-note:hover {
+    background: #ffd1f2;
+    color: rgb(0, 0, 0);
+}
